@@ -218,3 +218,6 @@
     position: inherit;
     display: block;
 }
+.backgroundImage {
+    background-image: 'love.jpg';
+    }
