@@ -1,0 +1,220 @@
+.dashboard-card {
+    cursor:pointer;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    border: none;
+}
+
+.dashboard-icon {
+    color: white;
+    margin-top: 35px;
+    font-size: 100px;
+    transition: font-size 0.25s;
+}
+
+.dashboard-card:hover .dashboard-icon {
+    font-size: 110px;
+    background-size: 170px 170px;
+}
+
+.dashboard-img {
+    font-size: 50px;
+    text-align: center;
+    height:200px;
+    position: relative;
+    width: 100%;
+}
+
+.project-color {
+    background-color:seagreen;
+}
+
+.task-catalog-color {
+    background-color:purple;
+}
+
+.mystuff-color {
+    background-color:royalblue;
+}
+
+.radeva-color {
+    background-color:rgb(240, 168, 14);
+}
+
+
+.dashboardLink {
+    position: absolute;
+    padding-left: 10px;
+    width: 100%;
+    bottom: 0;
+    height: 0px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.dashboard-card .dashboardLink {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    position: absolute;
+    overflow:hidden;
+    padding: 0px 5px 0px 15px;
+    transition: height 0.25s, padding 0.25s;
+}
+
+.dashboard-card:hover .dashboardLink {
+    height: 35px;
+    padding: 5px 5px 5px 15px;
+    position: absolute;
+}
+
+#taskRequestContainer {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#taskRequestButton {
+    font-size: 18px; 
+    color:white; 
+    width: 300px;
+    background-color: #17a2b8;
+}
+#taskRequestButton:hover{
+    background-color: #127a8a;
+}
+
+.box-gray {
+    background: #98b5e2;
+    background-image: linear-gradient( rgb(95, 185, 214),rgb(101, 138, 174));
+    padding: 20px 20px 30px;
+}
+.dashboard-widget-margin
+{
+    margin-bottom:0px;
+    margin-block-start: 20px;
+   
+}
+.box-gray1 {
+    background: #d1a293;
+    background-image: linear-gradient( rgb(230, 197, 202),rgb(225, 219, 220));
+    
+    padding: 20px 20px 30px;
+}
+.box-gray2 {
+    background: #c2adba;
+    background-image: linear-gradient( rgb(215, 231, 250),rgb(162, 190, 247));
+    padding: 20px 20px 30px;
+    opacity: initial;
+}
+.aligncenter {
+    text-align: center;
+}
+.box-bottom {
+    padding: 20px 0;
+    text-align: center;
+}
+.box-bottom {
+    background:#455c91;
+   color: white;
+}
+.box-bottom a {
+    color: #fff;
+    font-weight: 700;
+}
+.widget-box {
+    color: black;
+    font-weight: 500;
+}
+.dashboard-img {
+    /* font-size: 50px; */
+    text-align: center;
+    height:130px;
+    position: relative;
+    width: 100%;
+}
+.dashboardLink {
+    position: absolute;
+    padding-left: 10px;
+    width: 100%;
+    bottom: 0;
+    height: 0px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.dashboard-card .dashboardLink {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    position: absolute;
+    overflow:hidden;
+    padding: 0px 5px 0px 15px;
+    transition: height 0.25s, padding 0.25s;
+}
+
+.dashboard-card:hover .dashboardLink {
+    height: 35px;
+    padding: 5px 5px 5px 15px;
+    position: absolute;
+}
+.dashboard-icon {
+    /* color: white; */
+    margin-top: 35px;
+    /* font-size: 3em; */
+    transition: font-size 0.25s;
+    color: black;
+}
+.icon {
+    animation-name: animated fadeInUp;
+    transition: font-size 0.25s;
+}
+
+.dashboard-card:hover .icon {
+    font-size: 20px;
+    background-size: 170px 170px;
+}
+.dashboardLink1 {
+    position: relative;
+  
+   
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    display: none;
+    float: left;
+    padding-right: 10px;
+      
+}
+
+ .dashboard-card .dashboardLink1 {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    position: absolute;
+    overflow:hidden;
+    padding: 30px 5px 0px 15px;
+    transition: height 0.25s, padding 0.25s;
+}
+
+  .dashboard-card:hover .dashboardLink1 {
+    height: 35px;
+    padding-top: 10px;
+
+  padding-left: 05px;
+  width: 350px;
+    position: inherit;
+    display: block;
+}
